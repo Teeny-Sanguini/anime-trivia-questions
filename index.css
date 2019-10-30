@@ -1,0 +1,23 @@
+﻿body {
+  background-color: yellow;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+#submit, #anipic {
+  display: block;
+  margin: auto;
+}
+
+#anipic {
+  height: 800px;
+  width: 800px;
+}
+
