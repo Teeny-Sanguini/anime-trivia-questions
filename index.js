@@ -6,8 +6,8 @@ window.onload = init;
     
     function noscript() {
         var check = []; // answers for each question will go into this array
-        var correct = ["Goku", "Shadow Clone Jutsu", "Kappei Yamaguchi", "Shinichi Kudo", "Random"];
-        var nocheck = 3; // number of unanswered questions
+        var correct = ["Goku", "Shadow Clone Jutsu", "Kappei Yamaguchi", "Shinichi Kudo", "Random", "Togashi", "Andere"];
+        var nocheck = 7; // number of unanswered questions
         var noofcorrect = 0; // amount of correct answers
 
         var body = document.getElementsByTagName('div');
