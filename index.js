@@ -1,13 +1,13 @@
 window.onload = init;
-    function init() {
-        var submit = document.getElementById("submit");
-        submit.onclick = noscript;
-    }
+function init() {
+    var submit = document.getElementById("submit");
+    submit.onclick = noscript;
+}
     
     function noscript() {
         var check = []; // answers for each question will go into this array
-        var correct = ["Goku", "Shadow Clone Jutsu", "Kappei Yamaguchi", "Shinichi Kudo", "Random", "Togashi", "Andere", "Tatsunoko"];
-        var nocheck = 8; // number of unanswered questions
+        var correct = ["Goku", "Shadow Clone Jutsu", "Kappei Yamaguchi", "Shinichi Kudo", "Random", "Togashi", "Andere", "Tatsunoko", "Sukima Switch"];
+        var nocheck = 9; // number of unanswered questions
         var noofcorrect = 0; // amount of correct answers
 
         var body = document.getElementsByTagName('div');
